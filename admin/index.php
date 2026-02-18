@@ -1751,7 +1751,7 @@ function txShGalleryScan()
                           $scan['format'],
                           $scan['gallery_ip'],
                           $scan['thumbnails'],
-                          $scan['has_recip'],
+                          intval($scan['has_recip']),
                           $gallery['gallery_id']));
     }
 

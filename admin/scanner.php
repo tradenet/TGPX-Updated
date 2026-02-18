@@ -536,7 +536,7 @@ while( $gallery = $DB->NextRow($result) )
                           $gallery['admin_comments'],
                           $gallery['gallery_ip'],
                           $gallery['format'],
-                          $gallery['has_recip'],
+                          intval($gallery['has_recip']),
                           $gallery['page_hash'],
                           $gallery['status'],
                           $gallery['previous_status'],

@@ -199,7 +199,7 @@ function ImportFromRss($feed)
                                   $gallery['administrator'],
                                   $gallery['admin_comments'],
                                   $gallery['page_hash'],
-                                  $gallery['has_recip'],
+                                  intval($gallery['has_recip']),
                                   $gallery['has_preview'],
                                   $gallery['allow_scan'],
                                   $gallery['allow_preview'],

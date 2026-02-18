@@ -851,7 +851,7 @@ function txAddGallery()
                       $_REQUEST['administrator'],
                       $_REQUEST['admin_comments'],
                       $scan['page_hash'],
-                      $scan['has_recip'],
+                      intval($scan['has_recip']),
                       $_REQUEST['has_preview'],
                       $_REQUEST['allow_scan'],
                       $_REQUEST['allow_preview'],
